@@ -1,0 +1,10 @@
+spring:
+  flyway:
+    url: jdbc:postgresql://localhost:5432/statistic-db
+    user: postgres
+    password: pass
+    locations: "classpath:db/migration"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/statistic-db
+    username: postgres
+    password: pass
